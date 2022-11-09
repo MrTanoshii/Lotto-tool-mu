@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lotto_tool_mu"
+version = "0.1.0"
+authors = [
+  { name="Tsen Chee Vincent Leung Yin Ko", email="vincent.leungyinko@gmail.com" },
+]
+description = "A lotto checker for the Mauritian National Lottery. Retrieves data from https://www.loterienationale.mu/"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MrTanoshii/Lotto-tool-mu"
+"Bug Tracker" = "https://github.com/MrTanoshii/Lotto-tool-mu/issues"
